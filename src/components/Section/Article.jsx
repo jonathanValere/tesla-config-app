@@ -1,6 +1,10 @@
-function Article({ description, price, calcul }) {
+function Article({ description, price, setAmount }) {
   return (
-    <article onClick={calcul}>
+    <article
+      onClick={() => {
+        setAmount(price);
+      }}
+    >
       {description} - {price} €
     </article>
   );
