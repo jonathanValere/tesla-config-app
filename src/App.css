@@ -31,6 +31,15 @@ article {
   margin: 0.8rem 0;
 }
 
+.active {
+  border-color: rgb(124, 211, 126);
+  background-color: #d3fdef;
+}
+
+.no-active {
+  border-color: #090909;
+}
+
 .total {
   display: flex;
   justify-content: center;
@@ -47,4 +56,5 @@ button {
   padding: 0.2rem 1rem;
   font-size: 1.7rem;
   border-radius: 10px;
+  cursor: pointer;
 }

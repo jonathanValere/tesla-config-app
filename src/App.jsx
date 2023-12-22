@@ -17,6 +17,7 @@ function App() {
         price2={106700}
         description1="Grande autonomie"
         description2="Performance"
+        amount={amount}
       />
       <Section
         subtitle="Sélectionnez la couleur"
@@ -25,6 +26,7 @@ function App() {
         price2={1000}
         description1="Blanc nacré multicouches"
         description2="Noir uni"
+        amount={amount1}
       />
       <section className="container total">
         <p>{amount + amount1} €</p>
